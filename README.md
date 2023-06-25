@@ -336,6 +336,8 @@ Dropping test database YES
 
 Reloading the privilege on test database YES
 
+<img width="958" alt="Screenshot 2023-06-25 at 20 51 49" src="https://github.com/Mamiololo01/Web-and-DNS-on-Apache2/assets/67044030/98d591dc-5ed3-46ee-97b3-6e4e48271bfb">
+
 login
 
 Mysql -u root 

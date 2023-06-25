@@ -148,11 +148,16 @@ Mkdir  /var/www/webaddrees
 
 Ps -ef | grep apache2
 
-Chown -R www-data.www-data /var/www/webaddress for full access
+<img width="1017" alt="Screenshot 2023-06-25 at 20 16 10" src="https://github.com/Mamiololo01/Web-and-DNS-on-Apache2/assets/67044030/7b2b0d88-cceb-4d94-ab41-d92a09f41f80">
 
-Chmod 755 /var/www/webadress/
+
+chown -R www-data.www-data /var/www/webaddress for full access
+
+chmod 755 /var/www/webadress/
 
 Vim /var/www/address/index.html  and add the site content to the file
+
+<img width="1002" alt="Screenshot 2023-06-25 at 20 25 01" src="https://github.com/Mamiololo01/Web-and-DNS-on-Apache2/assets/67044030/0e7d43bb-763e-4ef9-900a-0beb6af02f4f">
 
 Cd /etc/apache2
 

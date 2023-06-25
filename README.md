@@ -1,6 +1,6 @@
 # Setting up wordpress website on Linux machine.
 
-Setting up Wordpress and DNS on Linux.
+Setting up Wordpress. Apsche2, Myswl, PHP and DNS on Linux.
 
 In this project, we will be setting up wordpress website from scratch. One of the requirements is that a domain name must have been purchased and set up with the cloud provider.
 

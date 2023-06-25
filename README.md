@@ -81,9 +81,9 @@ To show the main confg file
 
 DNS Queries 
 
-1. Recursive: A recursive query is a kind of query, in which the DNS server, that received your query, will do all the job, fetching the answer, and giving it back to you. In the end, you’ll get the final answer. 
+Recursive: A recursive query is a kind of query, in which the DNS server, that received your query, will do all the job, fetching the answer, and giving it back to you. In the end, you’ll get the final answer. 
 
-2. Iterative: The DNS name server will not go and fetch the complete answer for your query but will give back a referral to other DNS servers, which might have the answer. Now it’s your job to query those servers and find the answer.
+Iterative: The DNS name server will not go and fetch the complete answer for your query but will give back a referral to other DNS servers, which might have the answer. Now it’s your job to query those servers and find the answer.
 
 DNS Forwarder A forwarder is another DNS server that will be queried recursively by our server. A DNS server, configured to use a forwarder, behaves as follows: 
 

@@ -15,9 +15,14 @@ Install wordpress
 
 sudo apt update && sudo apt install Wireshark
 
+<img width="1139" alt="Screenshot 2023-06-25 at 18 05 45" src="https://github.com/Mamiololo01/Web-and-DNS-on-Apache2/assets/67044030/e14b68e5-03ae-41f9-973c-8ba1672b40bc">
+
+
 Open Wireshark and capture traffic
 
 Filter to see DNS and HTTP traffic
+
+<img width="901" alt="Screenshot 2023-06-25 at 18 14 29" src="https://github.com/Mamiololo01/Web-and-DNS-on-Apache2/assets/67044030/4ea349ba-48b5-4196-97e2-feba6557c44c">
 
 Using nslookup, host, or dig will show the DNS details
 

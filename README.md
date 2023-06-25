@@ -41,7 +41,12 @@ Set up DNS server using Bind 9
 
 Apt update && apt install bind9 bind9utils bind9-doc
 
+<img width="996" alt="Screenshot 2023-06-25 at 18 39 16" src="https://github.com/Mamiololo01/Web-and-DNS-on-Apache2/assets/67044030/24353a53-8510-4f0a-b4b4-e346cfd69cf1">
+
+
 Systemctl status bind9
+
+<img width="982" alt="Screenshot 2023-06-25 at 18 41 56" src="https://github.com/Mamiololo01/Web-and-DNS-on-Apache2/assets/67044030/73e203c9-986b-44fc-b648-0e1e3b042cbf">
 
 Set it to use IPV4
 

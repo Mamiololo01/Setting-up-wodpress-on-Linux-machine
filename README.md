@@ -171,11 +171,16 @@ A2ensite webadress and reload the server
 
 <IfModule mod_ssl.c> <VirtualHost *:443>      ServerName crystalmind.academy      ServerAlias www.crystalmind.academy      DocumentRoot /var/www/crystalmind.academy       ServerAdmin webmaster@crystalmind.academy      ErrorLog /var/log/apache2/crystalmind_academy_error.log      CustomLog /var/log/apache2/crystalmind_academy_access.log combined    SSLCertificateFile /etc/letsencrypt/live/crystalmind.academy/fullchain.pem SSLCertificateKeyFile /etc/letsencrypt/live/crystalmind.academy/privkey.pem Include /etc/letsencrypt/options-ssl-apache.conf </VirtualHost> </IfModule>  
 
+<img width="1040" alt="Screenshot 2023-06-25 at 20 30 31" src="https://github.com/Mamiololo01/Web-and-DNS-on-Apache2/assets/67044030/ad996eae-35aa-43e3-9561-6b6de562e37a">
+
+
 Under apache2 dir
 
 Secure Apache with OpenSSL  and Digital Certificate
 
 Apt update && apt install certbot python3-certbot-apache
+
+<img width="1014" alt="Screenshot 2023-06-25 at 20 38 25" src="https://github.com/Mamiololo01/Web-and-DNS-on-Apache2/assets/67044030/e765a88a-9d47-4b84-8ece-76ef163a4444">
 
 Certbot -d webadress and will ask
 

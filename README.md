@@ -303,13 +303,18 @@ Systemctl restart apache2
 
 Php -v
 
+<img width="717" alt="Screenshot 2023-06-25 at 20 50 11" src="https://github.com/Mamiololo01/Web-and-DNS-on-Apache2/assets/67044030/914726d2-e383-4e91-8a10-a830af47b0dc">
+
+
 Vim /etc/var/www/webadress/test.php
 
 Write a php code and check on the browser www.webadress/test/php
 
 Installing Mysql
 
-Apt update && apt install mysql-server
+apt update && apt install mysql-server
+
+<img width="1029" alt="Screenshot 2023-06-25 at 20 50 18" src="https://github.com/Mamiololo01/Web-and-DNS-on-Apache2/assets/67044030/83370e9c-62f4-40e1-a9fb-a69247b18011">
 
 Systemctl status mysql
 

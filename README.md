@@ -112,6 +112,9 @@ Do any local configuration here 
 
 "dig ns -t ns1 www.cisco.com"
 
+<img width="987" alt="Screenshot 2023-06-25 at 19 59 22" src="https://github.com/Mamiololo01/Web-and-DNS-on-Apache2/assets/67044030/5c480aaa-b80a-499a-ae27-53b5ccf2e605">
+
+
 systemctl start bind9
 
 Apache2
@@ -123,6 +126,8 @@ It’s fast, reliable, and secure. And Apache can be highly customized to meet t
 Most WordPress hosting providers use Apache as their webserver software. However, WordPress can run on other webserver software as well.
 
 Install apache
+
+<img width="1017" alt="Screenshot 2023-06-25 at 20 01 26" src="https://github.com/Mamiololo01/Web-and-DNS-on-Apache2/assets/67044030/967bf903-0052-4a57-8f4b-c9fdfef2f759">
 
 Ufw status
 

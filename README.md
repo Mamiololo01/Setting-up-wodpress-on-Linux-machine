@@ -116,6 +116,12 @@ systemctl start bind9
 
 Apache2
 
+Apache is the most widely used webserver software and runs on 67% of all websites in the world. Developed and maintained by Apache Software Foundation, Apache is open source software and available for free.
+
+It’s fast, reliable, and secure. And Apache can be highly customized to meet the needs of many different environments by using extensions and modules.
+
+Most WordPress hosting providers use Apache as their webserver software. However, WordPress can run on other webserver software as well.
+
 Install apache
 
 Ufw status

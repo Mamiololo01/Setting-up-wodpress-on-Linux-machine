@@ -54,9 +54,14 @@ vi  /etc/default/named
 
 Under the OPTIONS=“-u bind -4”, save and exit the file
 
+<img width="884" alt="Screenshot 2023-06-25 at 18 47 07" src="https://github.com/Mamiololo01/Web-and-DNS-on-Apache2/assets/67044030/72dfcc5d-49dd-424e-965e-015fa86e1b9e">
+
+
 "Systemctl restart bind9"
 
 dig -t a @localhost google.com
+
+<img width="761" alt="Screenshot 2023-06-25 at 18 50 08" src="https://github.com/Mamiololo01/Web-and-DNS-on-Apache2/assets/67044030/233217ff-6bd4-4864-91bb-1ebc42460289">
 
 To show the main confg file 
 

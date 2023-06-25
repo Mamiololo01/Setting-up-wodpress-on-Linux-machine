@@ -45,6 +45,10 @@ To check authoritative server details
 
 Set up DNS server using Bind 9
 
+Berkeley Internet Name Domain (BIND) is the most popular Domain Name System (DNS) server in use today. It was developed in the 1980s at the University of Berkley and is currently in version 9. BIND is an open source system free to download and use, offered under the Mozilla Public License.
+
+BIND can be used to run a caching DNS server or an authoritative name server, and provides features like load balancing, notify, dynamic update, split DNS, DNSSEC, IPv6, and more.
+
 apt update && apt install bind9 bind9utils bind9-doc
 
 <img width="996" alt="Screenshot 2023-06-25 at 18 39 16" src="https://github.com/Mamiololo01/Web-and-DNS-on-Apache2/assets/67044030/24353a53-8510-4f0a-b4b4-e346cfd69cf1">

@@ -1,5 +1,8 @@
-# Web-and-DNS-on-Apache2
+# Setting up wordpress website on Linux machine.
+
 Setting up Wordpress and DNS on Linux.
+
+In this project, we will be setting up wordpress website from scratch. One of the requirements is that a domain name must have been purchased and set up with the cloud provider.
 
 Requirements
 
@@ -12,6 +15,10 @@ Install mysql-server
 Install PHP
 
 Install wordpress
+
+Firstly, we have to install Wireshark.
+
+Wireshark is primarily used to capture packets of data moving through a network. The tool allows users to put network interface controllers (NICs) into promiscuous mode to observe most traffic, even unicast traffic, which is not sent to a controller’s MAC address. However, doing this normally requires superuser permissions and may be restricted on some networks.
 
 sudo apt update && sudo apt install Wireshark
 
@@ -26,7 +33,7 @@ Filter to see DNS and HTTP traffic
 
 <img width="1013" alt="Screenshot 2023-06-25 at 18 17 20" src="https://github.com/Mamiololo01/Web-and-DNS-on-Apache2/assets/67044030/c1de9a27-d2e2-45dc-8c55-c075a0f0ef33">
 
-Using nslookup, host, or dig will show the DNS details
+Using 'nslookup', 'host', or 'dig' will show the DNS details
 
 To check authoritative server details
 
@@ -36,15 +43,14 @@ To check authoritative server details
 <img width="660" alt="Screenshot 2023-06-25 at 18 18 07" src="https://github.com/Mamiololo01/Web-and-DNS-on-Apache2/assets/67044030/826e7de4-c174-4434-ba30-617d9ef731da">
 
 
-
 Set up DNS server using Bind 9
 
-Apt update && apt install bind9 bind9utils bind9-doc
+apt update && apt install bind9 bind9utils bind9-doc
 
 <img width="996" alt="Screenshot 2023-06-25 at 18 39 16" src="https://github.com/Mamiololo01/Web-and-DNS-on-Apache2/assets/67044030/24353a53-8510-4f0a-b4b4-e346cfd69cf1">
 
 
-Systemctl status bind9
+systemctl status bind9
 
 <img width="982" alt="Screenshot 2023-06-25 at 18 41 56" src="https://github.com/Mamiololo01/Web-and-DNS-on-Apache2/assets/67044030/73e203c9-986b-44fc-b648-0e1e3b042cbf">
 
@@ -66,6 +72,8 @@ dig -t a @localhost google.com
 To show the main confg file 
 
 "cat /etc/bind/named.conf"
+
+<img width="840" alt="Screenshot 2023-06-25 at 18 52 00" src="https://github.com/Mamiololo01/Web-and-DNS-on-Apache2/assets/67044030/5aedb894-27db-495c-97f1-4cb934aa0c8b">
 
 DNS Queries 
 

@@ -133,11 +133,16 @@ Ufw status
 
 uff allow ‘Apache full’
 
+<img width="711" alt="Screenshot 2023-06-25 at 20 03 44" src="https://github.com/Mamiololo01/Web-and-DNS-on-Apache2/assets/67044030/9dfb5fc9-9641-4d2f-85ea-dfb704848dd9">
+
+
 Document root ls /var/www/html
 
 Echo “Hello” > /var/www/html/me.txt
 
 To confirm check apachewebaddrees/me.txt
+
+<img width="905" alt="Screenshot 2023-06-25 at 20 15 57" src="https://github.com/Mamiololo01/Web-and-DNS-on-Apache2/assets/67044030/4d50d813-8ba2-4787-a439-3f8c4a5a22c4">
 
 Mkdir  /var/www/webaddrees
 

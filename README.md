@@ -24,11 +24,17 @@ Filter to see DNS and HTTP traffic
 
 <img width="901" alt="Screenshot 2023-06-25 at 18 14 29" src="https://github.com/Mamiololo01/Web-and-DNS-on-Apache2/assets/67044030/4ea349ba-48b5-4196-97e2-feba6557c44c">
 
+<img width="1013" alt="Screenshot 2023-06-25 at 18 17 20" src="https://github.com/Mamiololo01/Web-and-DNS-on-Apache2/assets/67044030/c1de9a27-d2e2-45dc-8c55-c075a0f0ef33">
+
 Using nslookup, host, or dig will show the DNS details
 
 To check authoritative server details
 
 'dig -t ns [website_name]'
+
+
+<img width="660" alt="Screenshot 2023-06-25 at 18 18 07" src="https://github.com/Mamiololo01/Web-and-DNS-on-Apache2/assets/67044030/826e7de4-c174-4434-ba30-617d9ef731da">
+
 
 
 Set up DNS server using Bind 9

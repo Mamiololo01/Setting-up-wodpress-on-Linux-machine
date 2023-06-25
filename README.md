@@ -196,6 +196,9 @@ Http to https re-direct, yes
 
 Access control by source IP address
 
+<img width="1002" alt="Screenshot 2023-06-25 at 20 42 00" src="https://github.com/Mamiololo01/Web-and-DNS-on-Apache2/assets/67044030/852b152d-5e79-4d4c-bb46-9a78dc5c45f1">
+
+
 Mkdir /var/www/webaddress/admin
 
 Echo “Top secret information” > /var/www/webadress/admin/index.html
@@ -291,6 +294,8 @@ E2emod status
 Installing PHP for server side scripting
 
 Apt update && apt install php php-mysql libapache2-mod-php
+
+<img width="1024" alt="Screenshot 2023-06-25 at 20 46 09" src="https://github.com/Mamiololo01/Web-and-DNS-on-Apache2/assets/67044030/4d63bd80-4e23-4a6c-8d67-c1b8f4f5d116">
 
 Enables apache to handle php files
 

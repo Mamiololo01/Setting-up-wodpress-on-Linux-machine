@@ -358,6 +358,12 @@ SET PASSWORD
 
 Phpenmod mastering and restart the server
 
+<img width="1036" alt="Screenshot 2023-06-26 at 22 31 34" src="https://github.com/Mamiololo01/Setting-up-wodpress-on-Linux-machine/assets/67044030/8962fad3-153a-44d6-8261-916fc95f05c0">
+
+
+
+<img width="1031" alt="Screenshot 2023-06-26 at 22 33 36" src="https://github.com/Mamiololo01/Setting-up-wodpress-on-Linux-machine/assets/67044030/35159b92-8de5-4389-a40c-a8b1bb5c6704">
+
 
 Login to mysql server
 

@@ -429,6 +429,8 @@ Then extract the archive
 
 Tar -xzvf latest.tar.gz
 
+<img width="1028" alt="Screenshot 2023-06-26 at 23 04 15" src="https://github.com/Mamiololo01/Setting-up-wodpress-on-Linux-machine/assets/67044030/e8eeb245-7ae1-49d9-b753-8a894ec370a4">
+
 Then move wordpress to the webpage root dir
 
 ls wordpress

@@ -450,6 +450,9 @@ Chown -R www-data.www-data var/www/webadresss/
 Check the wordpress content
 ls -l /var/www/webadress/
 
+<img width="987" alt="Screenshot 2023-06-26 at 23 14 11" src="https://github.com/Mamiololo01/Setting-up-wodpress-on-Linux-machine/assets/67044030/c67f6f89-2e6c-4e95-86e9-4112acee8120">
+
+
 Go to browser and type www.webadress/wp-admin and follow the set up wizard and fill all parameters	and complete the set up. Login to the dashboard and create your website.
 
 WordPress Security 
